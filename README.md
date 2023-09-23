@@ -14,7 +14,7 @@
       Demo
     </a>
     <span> | </span>
-    <a href="https://github.com/CarlosUlisesOchoa/code-challenge-reading-list">
+    <a href="https://github.com/CarlosUlisesOchoa/Solucion-reto-reading-list">
       Código fuente
     </a>
   </h3>
@@ -41,6 +41,7 @@ Desarrollado con una variedad de tecnologías modernas para proporcionar la mejo
 - [Standard](https://standardjs.com/)
 - [ESLint](https://eslint.org/)
 - [Vite](https://vitejs.dev/)
+- [Vitest](https://vitest.dev/)
 
 ### Capturas de pantalla
 
@@ -80,13 +81,19 @@ Ejecuta los siguientes comandos en tu línea de comandos:
 
 ```bash
 # Clona este repositorio
-$ git clone https://github.com/CarlosUlisesOchoa/code-challenge-reading-list
+$ git clone https://github.com/CarlosUlisesOchoa/Solucion-reto-reading-list.git
 
 # Ve al directorio del proyecto
-$ cd reading-list\pruebas\01-reading-list\CarlosUlisesOchoa
+$ cd Solucion-reto-reading-list
 
 # Instala las dependencias
 $ pnpm install
+
+# Puedes correr los tests usando el comando
+$ pnpm run test
+
+# Puedes construir el bundle con el comando
+$ pnpm run build
 
 # Ejecutar en modo desarrollo
 $ pnpm run dev
