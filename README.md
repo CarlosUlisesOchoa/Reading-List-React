@@ -1,25 +1,101 @@
-# Pruebas Técnicas de Programación
+<h1 align="center">📚 Mi catálogo de libros</h1>
 
-Pruebas técnicas de programación para desarrolladores frontend y backend.
+<br/>
 
-## Lista de pruebas técnicas
+<div align="center">
+   Consulta los detalles de este coding challenge <a href="https://github.com/midudev/pruebas-tecnicas/blob/main/pruebas/01-reading-list/README.md" target="_blank">haciendo clic aquí</a>
+   <br/><br/>
+   Alojado en <a href="https://vercel.com/" target="_blank">Vercel</a>.
+</div>
 
-- [01 - Reading List (FrontEnd - Nivel: Junior)](./pruebas/01-reading-list/README.md)
+<div align="center">
+  <h3>
+    <a href="https://reading-list-code-challenge.vercel.app/">
+      Demo
+    </a>
+    <span> | </span>
+    <a href="https://github.com/CarlosUlisesOchoa/code-challenge-reading-list">
+      Código fuente
+    </a>
+  </h3>
+</div>
 
-## ¿Cómo participar?
+<br />
 
-1. Haz un fork de este repositorio
-2. Crea una carpeta con **tu nombre de usuario de GitHub** dentro de la carpeta `pruebas/[nombre-de-la-prueba]`, por ejemplo: `pruebas/01-reading-list/midudev`.
-3. Siempre **sólo modifica los ficheros y carpetas dentro de tu carpeta**, de otra manera, tu pull request será rechazada. Nunca formatees o modifiques el código de otros participantes.
+Desarrollado con una variedad de tecnologías modernas para proporcionar la mejor experiencia de lectura. ✨
 
-- Recurso: [Cómo crear una Pull Request a un proyecto](https://www.youtube.com/watch?v=BPns9r76vSI)
+## Tabla de Contenidos
 
-## Sígueme en las redes sociales
+- [Tecnologías utilizadas](#tecnologías-utilizadas)
+- [Características implementadas](#características-implementadas)
+- [Características por implementar](#características-por-implementar)
+- [Requisitos](#requisitos)
+- [Cómo empezar](#cómo-empezar)
+- [Contacto](#contacto)
 
-- [Twitter](https://twitter.com/midudev)
-- [Instagram](https://instagram.com/midu.dev)
-- [Twitch](https://twitch.tv/midudev)
-- [YouTube](https://youtube.com/midudev)
-- [TikTok](https://tiktok.com/@midudev)
-- [LinkedIn](https://linkedin.com/in/midudev)
-- [Web](https://midu.dev)
+## Tecnologías Utilizadas
+
+- [React](https://reactjs.org/)
+- [Tailwind](https://tailwindcss.com/)
+- [Prettier](https://prettier.io/)
+- [Standard](https://standardjs.com/)
+- [ESLint](https://eslint.org/)
+- [Vite](https://vitejs.dev/)
+
+### Capturas de pantalla
+
+Tema oscuro:
+![image](https://github.com/CarlosUlisesOchoa/code-challenge-reading-list/assets/26280134/5c0e1e4b-7eef-46bc-927f-20932290d52b)
+
+Tema claro:
+![image](https://github.com/CarlosUlisesOchoa/code-challenge-reading-list/assets/26280134/e844fec4-18e3-4c32-9c6e-157d22340429)
+
+
+### Características implementadas
+
+- [x] Visualización de libros disponibles
+- [x] Agregar libro a lista de lectura
+- [x] Eliminar libro a lista de lectura
+- [x] Filtro por género de Libros
+- [x] Filtro por número de Páginas
+- [x] Búsqueda por texto en título
+- [x] Persistencia de datos en el navegador
+- [x] Diseño adaptativo (Responsive design)
+- [x] Añadir tests
+
+### Características por implementar
+
+- [ ] Sincronización de estado global
+- [ ] Ordenación de la lista de lectura por prioridad
+- [ ] Sincronización entre pestañas
+
+## Requisitos
+
+- [Node.js](https://nodejs.org/en/download/)
+- [npm](https://www.npmjs.com/) o [pnpm](https://pnpm.io/)
+
+## Cómo Empezar
+
+Ejecuta los siguientes comandos en tu línea de comandos:
+
+```bash
+# Clona este repositorio
+$ git clone https://github.com/CarlosUlisesOchoa/code-challenge-reading-list
+
+# Ve al directorio del proyecto
+$ cd reading-list\pruebas\01-reading-list\CarlosUlisesOchoa
+
+# Instala las dependencias
+$ pnpm install
+
+# Ejecutar en modo desarrollo
+$ pnpm run dev
+
+# Listo ahora podrás ver el proyecto accediendo a http://localhost:5173/
+```
+
+## Contacto
+
+- Website [carlos8a.com](https://carlos8a.com)
+- GitHub [@CarlosUlisesOchoa](https://github.com/carlosulisesochoa)
+- X [@Carlos8aDev](https://twitter.com/carlos8adev)
